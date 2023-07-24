@@ -1,0 +1,275 @@
+.explore-main-wrapp {
+  margin: 1rem auto;
+  padding-top: 2rem;
+}
+
+/* Dropdown start */
+
+.drop-wrapp {
+  /* background: #2d2d2d;
+
+  flex-wrap: wrap;
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  font-family: sans-serif;
+  color: #fff; */
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  min-height: 30vh;
+  gap: 10%;
+  margin-top: 2rem;
+}
+
+.lbl-selector {
+  display: flex;
+  flex-direction: column;
+  flex: auto;
+  width: 40%;
+  cursor: pointer;
+  min-width: 150px;
+  max-width: 400px;
+}
+
+.gift-selector {
+  /* height: 2.2rem; */
+  border: 1px solid white;
+  color: var(--color-dark-blue);
+  background-color: var(--color-light-blue);
+  padding: 12px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+  /* font-family: var(--font-alt) !important; */
+}
+
+.gift-selector::placeholder {
+  color: #fff;
+  stroke: #fff;
+  fill: #fff;
+  cursor: pointer;
+}
+
+.drop-option {
+  font-size: 34px;
+}
+
+/* Dropdown end */
+
+/* sign model start */
+
+.explore-model-wrapp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem;
+}
+
+.explore-model-text {
+  font-size: 28px;
+  font-family: var(--font-alt) !important;
+  font-weight: 500;
+}
+
+/* sign model end */
+
+/* news-latter */
+
+.news-latter-wrapp {
+  padding: 1rem;
+  background: var(--color-light-green);
+  width: auto;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+
+  text-align: left;
+  flex-direction: column;
+  /* max-width: 400px; */
+}
+
+.news-latter-text {
+  font-size: 22px;
+  font-family: var(--font-alt);
+  font-weight: 500;
+}
+
+/* -------------- subscribe input box -------------- */
+
+.subscribe_form {
+  /* max-width: 470px; */
+  width: 100%;
+  /* margin: 0 auto; */
+  /* box-shadow: 0px 2px 5px 0px rgba(10, 6, 20, 0.24); */
+}
+
+.subscribe_form:focus {
+  outline: none;
+}
+
+.subscribe_form .form-control {
+  border: none;
+}
+
+.subscribe_form .form-control:focus {
+  box-shadow: none;
+}
+
+.subscribe_form input {
+  height: 44px;
+  max-width: 72%;
+}
+
+.subscribe_form button {
+  border: none;
+  height: 44px;
+  background-color: #0ed085;
+  color: #fff;
+  margin: -1px;
+  border-radius: 0;
+  width: 135px;
+  text-transform: uppercase;
+  position: relative;
+  transition: all ease 0.3s;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
+  -ms-transition: all ease 0.3s;
+}
+
+.subscribe_form button:hover,
+.subscribe_form button:focus,
+.subscribe_form button:active,
+.subscribe_form button:visited {
+  color: #fff;
+  background-color: rgba(14, 208, 133, 0.77);
+  outline: none;
+  transition: all ease 0.3s;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
+  -ms-transition: all ease 0.3s;
+}
+
+.subscribe_form button:hover:before,
+.subscribe_form button:focus:before,
+.subscribe_form button:active:before,
+.subscribe_form button:visited:before {
+  background-color: rgba(14, 208, 133, 0.77);
+  transition: all ease 0.3s;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
+  -ms-transition: all ease 0.3s;
+}
+
+.subscribe_form button:before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  height: 1px;
+  background-color: #0ed085;
+  width: 100%;
+  transition: all ease 0.3s;
+  -webkit-transition: all ease 0.3s;
+  -moz-transition: all ease 0.3s;
+  -o-transition: all ease 0.3s;
+  -ms-transition: all ease 0.3s;
+}
+
+.subscribe_form .input-group-btn:last-child>.btn,
+.subscribe_form .input-group-btn:last-child>.btn-group {
+  z-index: 2;
+  margin-left: 0px;
+}
+
+.input-group {
+  display: flex;
+  /* flex-wrap: wrap; */
+}
+
+@media (min-width: 920px) {
+  .subscribe_form {
+    margin-top: 1rem;
+  }
+}
+
+@media (max-width: 920px) {
+  .explore-main-wrapp {
+    margin: 2rem auto;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .drop-wrapp {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    gap: 2rem;
+  }
+
+  .news-latter-wrapp {
+    width: auto;
+    gap: 1rem;
+  }
+
+  .news-latter-text {
+    font-size: 20px;
+  }
+
+  .lbl-selector {
+    width: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .explore-model-text {
+    font-size: 20px;
+  }
+
+  .explore-model-text>a {
+    font-size: 24px !important;
+  }
+
+  .explore-model-wrapp>button {
+    font-size: 24px !important;
+  }
+
+  .gift-selector {
+    width: 100%;
+  }
+
+  .mentorlist_dropdown_wrapp {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 400px) {
+  .news-latter-wrapp {
+    width: 94%;
+  }
+
+  .news-latter-text {
+    font-size: 18px;
+  }
+
+  .news-latter-text>span {
+    font-size: 18px !important;
+  }
+
+  .subscribe_form button {
+    width: auto;
+  }
+
+  .gift-selector {
+    font-size: 16px;
+  }
+}

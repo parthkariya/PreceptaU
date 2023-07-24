@@ -1,0 +1,44 @@
+// Sign up
+export const REGISTER_BEGIN = "REGISTER_BEGIN";
+export const REGISTER_SUCCESS = "REGISTER_SUCCESS";
+export const REGISTER_FAIL = "REGISTER_FAIL";
+
+// Login
+export const LOGIN_BEGIN = "LOGIN_BEGIN";
+export const LOGIN_SUCCESS = "LOGIN_SUCCESS";
+export const LOGIN_FAIL = "LOGIN_FAIL";
+
+// Notification
+export const GET_SUBJECT_BEGIN = "GET_SUBJECT_BEGIN";
+export const GET_SUBJECT_SUCCESS = "GET_SUBJECT_SUCCESS";
+export const GET_SUBJECT_ERROR = "GET_SUBJECT_ERROR";
+
+// Notification
+export const GET_COURSE_BEGIN = "GET_COURSE_BEGIN";
+export const GET_COURSE_SUCCESS = "GET_COURSE_SUCCESS";
+export const GET_COURSE_ERROR = "GET_COURSE_ERROR";
+
+// Edit Profile
+export const UPDATE_PROFILE_BEGIN = "UPDATE_PROFILE_BEGIN";
+export const UPDATE_PROFILE_SUCCESS = "UPDATE_PROFILE_SUCCESS";
+export const UPDATE_PROFILE_FAIL = "UPDATE_PROFILE_FAIL";
+
+// Mentor List
+export const MENTOR_LIST_BEGIN = "MENTOR_LIST_BEGIN";
+export const MENTOR_LIST_SUCCESS = "MENTOR_LIST_SUCCESS";
+export const MENTOR_LIST_FAIL = "MENTOR_LIST_FAIL";
+
+// Logout User
+export const LOGOUT_USER = "LOGOUT_USER";
+
+// Delete Inquiry
+
+export const DELETE_INQUIRY_BEGIN = "DELETE_INQUIRY_BEGIN";
+export const DELETE_INQUIRY_SUCCESS = "DELETE_INQUIRY_SUCCESS";
+export const DELETE_INQUIRY_FAIL = "DELETE_INQUIRY_FAIL";
+
+// Get Program
+
+export const GET_PROGRAM_BEGIN = "GET_PROGRAM_BEGIN";
+export const GET_PROGRAM_SUCCESS = "GET_PROGRAM_SUCCESS";
+export const GET_PROGRAM_FAIL = "GET_PROGRAM_FAIL";

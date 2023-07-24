@@ -1,0 +1,50 @@
+.inq-card-main {
+    width: 90%;
+    padding: 20px;
+    display: flex;
+    gap: 25px;
+    background-color: var(--color-light-green);
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.inq-card-imgbox {
+    max-width: 50px;
+}
+
+.inq-card-img {
+    width: 100%;
+    height: 100%;
+}
+
+.inq-card-icon {
+    width: 20px;
+    height: 20px;
+    color: red;
+}
+
+.btn-inq-card {
+    background: none;
+    border: none;
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    right: 1%;
+}
+
+@media screen and (max-width:768px) {
+    .inq-card-main {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:450px) {
+    .inq-card-main {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .inq-card-main{
+        padding: 10px;   
+    }
+}

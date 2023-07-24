@@ -1,0 +1,168 @@
+.signup_main_wrapp {
+  display: flex;
+  width: 100%;
+  height: 100%;
+justify-content: space-around;
+  /* min-height: 100vh;
+  min-width: 100vw; */
+  flex: 1;
+  flex-wrap: wrap;
+  /* background: var(--color-white); */
+}
+
+/* signup part */
+
+.signup_part {
+  flex: 0.6;
+  height: 65vh;
+  padding: 3rem 0;
+  /* background: var(--color-bg); */
+}
+
+.signup_first_wrapp {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  margin-top: 1rem;
+  flex: 1;
+}
+
+.signup_name_wrapp {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  /* flex: 0.6; */
+  width: 55%;
+  flex-wrap: wrap;
+}
+
+.signup_image_wrapp {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* flex: 0.4; */
+  width: 40%;
+}
+
+.signup_input {
+  max-width: 47%;
+}
+
+.signup_input2 {
+  min-width: 100%;
+}
+
+.signup_input2 textarea {
+  width: 100%;
+  background: #ffffff;
+  border: 1px solid #c4c4c4;
+  border-radius: 6px;
+  padding: 5px 10px;
+  margin: 0 0 10px;
+}
+
+.signup_input2 select {
+  width: 100%;
+  background: #ffffff;
+  border: 1px solid #c4c4c4;
+  border-radius: 6px;
+  padding: 5px 10px;
+  margin: 0 0 10px;
+}
+
+.red-border {
+  width: 100%;
+  background: #ffffff;
+  border: 1px solid #c4c4c4;
+  border-radius: 6px;
+  padding: 5px 10px;
+  margin: 0 0 10px;
+}
+
+.form-control input[type="date"]::placeholder {
+  /* width: 100%;
+  background: #ffffff;
+  border: 1px solid #c4c4c4;
+  border-radius: 6px;
+  padding: 5px 10px;
+  margin: 0 0 10px; */
+  color: gray !important;
+}
+
+.preiew_img {
+  border-radius: 8px;
+  cursor: pointer;
+  width: 80%;
+  height: 100px;
+}
+
+.image_input_box {
+  width: 80%;
+  height: 100px;
+  background: var(--color-bg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-black);
+  font-size: 12px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.signup_secound_wrapp,
+.what_woude_wrapp {
+  width: 91%;
+}
+
+/* payment part */
+
+.payment_part {
+  /* display: flex; */
+  flex: 0.4;
+  /* width: 100%; */
+  padding: 1rem;
+
+  height: 100vh;
+  background: var(--color-light-blue);
+}
+
+@media (max-width: 920px) {
+  .signup_main_wrapp {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+
+  .signup_first_wrapp {
+    /* justify-content: center; */
+  }
+
+  .signup_name_wrapp {
+    width: 70%;
+  }
+
+  .signup_image_wrapp {
+    width: 30%;
+  }
+
+  .payment_part,
+  .signup_secound_wrapp,
+  .what_woude_wrapp {
+    width: 100%;
+  }
+}
+
+@media (max-width: 720px) {
+  .signup_first_wrapp {
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+
+  .signup_name_wrapp,
+  .signup_image_wrapp,
+  .image_input_box {
+    width: 100%;
+  }
+}

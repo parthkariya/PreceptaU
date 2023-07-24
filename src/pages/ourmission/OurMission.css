@@ -1,0 +1,39 @@
+/* main {
+    display: flex;
+    margin-top: 200px;
+} */
+
+.mission_heading {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 40px;
+}
+
+.ourmission {
+    text-align: justify;
+    /* padding: 2%; */
+
+    max-width: 1140px;
+    margin: 0 auto;
+    margin-bottom: 95px;
+}
+
+.mission_info {
+    margin-top: 200px;
+    width: 100%;
+    height: 50vh;
+}
+
+@media screen and (max-width:1140px) {
+    .ourmission {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+
+@media screen and (max-width:600px) {
+    .mission_info {
+
+        height: 100vh;
+    }
+}

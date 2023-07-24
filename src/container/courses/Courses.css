@@ -1,0 +1,151 @@
+.courses-icon {
+    font-size: 25px;
+    color: #fff;
+}
+
+.courses-main-wrapp {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    grid-gap: 1rem;
+    margin: 1rem;
+}
+
+.courses-btn-chng {
+    background-color: var(--color-light-blue);
+    color: var(--color-dark-blue);
+}
+
+.radio-btn-flex {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.course-form-margin-right {
+    margin-right: 5px;
+}
+
+
+
+.tutor-profile-heading-margin-left {
+    margin-left: 15px;
+}
+
+.course-form-txt {
+    font-size: 12px
+}
+
+
+/* Trading Time Start */
+
+/* tranding input start */
+
+.mm_tranding_wrapp {
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+    gap: 0.5rem;
+    width: 100%;
+    margin: 8px 0;
+}
+
+.tranding_times_wrapp {
+    display: flex;
+    /* flex-direction: column; */
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 0.5rem;
+    width: 100%;
+}
+
+.course-modal-main {
+    max-width: 650px;
+}
+
+.tranding_times_wrapp_sec {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 35px;
+    width: 100%;
+    flex-wrap: wrap;
+    /* gap: 8px; */
+}
+
+.tranding_sigle_time_wrapp {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.tranding_sigle_time_wrapp>select {
+    min-width: 160px;
+}
+
+.mall_upload_btn_wrapp {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    width: 50%;
+    margin-top: 0.5rem;
+}
+
+.mm_img_upload_wrapp {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+@media (max-width: 768px) {
+
+    .mall_name_heading,
+    .mall_name_wrapp>span {
+        font-size: 2rem;
+    }
+
+    .mm_main_wrapp {
+        margin: 5.2rem 1rem 2rem 1rem;
+    }
+
+    .mm_form_wrapp {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .mm_form_input_wrapp,
+    .mm_img_upload_wrapp {
+        width: 90%;
+    }
+
+    .mm_tranding_wrapp,
+    .mm_form_single_input {
+        flex-wrap: wrap;
+    }
+
+    .mm_form_single_input>label {
+        min-width: auto;
+    }
+
+    .mall_upload_btn_wrapp {
+        width: 100%;
+    }
+
+    .tranding_times_wrapp_sec {
+        width: 48%;
+    }
+}
+
+@media (max-width: 500px) {
+    .tranding_times_wrapp_sec {
+        width: 100%;
+    }
+}

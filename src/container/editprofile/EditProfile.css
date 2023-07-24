@@ -1,0 +1,13 @@
+.padding-left-editprofile {
+    padding-left: 30px;
+}
+
+@media (max-width: 768px) {
+    .profile_sidebar_wrapp {
+        display: none;
+    }
+
+    .profile_main_sec_wrapp {
+        width: 100% !important;
+    }
+}
